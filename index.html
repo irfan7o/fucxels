@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Fucxels</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <!--Logo-->
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="logo">
+                <span>Fucxels</span>
+            </a>
+            <!--Search-->
+            <div class="nav-search-container">
+                <div class="nav-search-label">
+                    <i class="fa-solid fa-image"></i>
+                    <span>Photo</span>
+                </div>
+                <div class="nav-search">
+                    <input type="text" id="searchInput" placeholder="Search for free photos">
+                    <button type="submit" onclick="searchPhotos()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <a href="https://saweria.co/uiirfan" target="_blank" class="nav-donate"><i class="fa-solid fa-heart"></i>
+                &nbsp; Donate</a>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="main-heading">
+            <strong>Find All Free Images Here by <a href="https://www.instagram.com/irfan.0z"
+                    target="_blank">Irfan.0z</a></strong>
+            <h1>Discover the Best of Fucxels</h1>
+        </div>
+
+        <div class="photo-container" id="photoContainer">
+
+        </div>
+
+        <div class="loading-spinner" id="loadingSpinner"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
